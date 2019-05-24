@@ -16,5 +16,5 @@ Reads phrase numbers from standard input, one per line, and outputs the correspo
 ## Usage
 ```bash
 $ javac *.java
-$ java Encoder <maximum number of bits used to encode phrase number> <file> | java BitPacker | java BitUnpacker | java Decoder > <output file name>
+$ java Encoder <maximum number of bits used to encode phrase number> < <file> | java BitPacker | java BitUnpacker | java Decoder > <output file name>
 ```
